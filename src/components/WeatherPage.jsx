@@ -37,7 +37,7 @@ const WeatherPage = () => {
         wind: ''
     });
 
-    const [dayInfo, setDay] = useState({
+    const [dayInfo] = useState({
         day: arrayOfDay.filter((item, index) => index === date.getDay()),
         date: date.getDate(),
         month: arrayOfMonth.filter((item, index) => index === date.getMonth()),
